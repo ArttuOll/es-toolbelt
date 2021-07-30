@@ -76,3 +76,12 @@ _no-duplicate-imports_ - Combine imports from a module to the same statement.
 
 With React, be sure to use the `eslint-plugin-react` and `eslint-plugin-react-hooks` plugins. They
 are included with `create-react-app`.
+
+### Prettier
+
+With Prettier be sure to use the `eslint-plugin-prettier`. It will disable all the ESLint rules
+that conflict with its settings. Also, make sure it is the last plugin applied!
+
+### Cypress
+
+With Cypress, use `eslint-plugin-cypress`. It helps in following the Cypress best practices.
