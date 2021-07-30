@@ -9,7 +9,6 @@
         "no-unsafe-optional-chaining": "error",
         "array-callback-return": "error",
         "consistent-return": "error",
-        "curly": ["error", "multi"],
         "default-param-last": "error",
         "dot-location": "error",
         "eqeqeq": "off",
