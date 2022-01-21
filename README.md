@@ -75,7 +75,7 @@ _no-duplicate-imports_ - Combine imports from a module to the same statement.
 ### React
 
 With React, be sure to use the `eslint-plugin-react` and `eslint-plugin-react-hooks` plugins. They
-are included with `create-react-app`.
+are included with `create-react-app`. Also use `eslint-plugin-jsx-a11y` to help write more accessible components.
 
 ### Prettier
 
