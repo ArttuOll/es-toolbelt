@@ -79,8 +79,8 @@ are included with `create-react-app`. Also use `eslint-plugin-jsx-a11y` to help 
 
 ### Prettier
 
-With Prettier be sure to use the `eslint-plugin-prettier`. It will disable all the ESLint rules
-that conflict with its settings. Also, make sure it is the last plugin applied!
+With Prettier be sure to use the `eslint-plugin-prettier` and `eslint-config-prettier`. This will run Pretties as an ESLint rule and
+disable all the ESLint rules that conflict with its settings. Add `"plugin:prettier/recommended"` to your ESLint config and make sure it is the last plugin applied!
 
 ### Cypress
 
